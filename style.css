@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 10%;
+    height: 100vh;
+    background-color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    width: 90%;
+    display:flex;
+    flex-wrap:nowrap;
+    background-color:rgb(0, 0, 22);
+    color:white;
+}
+a{
+    text-decoration: none;
+    font-size:16px;
+    color:white;
+}
+
+main{
+    display:flex;
+    flex-wrap:nowrap;
+}
+.ocho{
+    width: 80%;
+}
+.dos{
+    width: 20%;
+}
+
+.header__boton img{
+    width: 40px;
+}
+
+.header__boton .boton__switch{
+    width: 250px;
+}
+
+.boton-header__boton .barra-header__barra{
+    background-color:black;
+}
+
+.main-Main{
+    width: 800px;
+    background-image:url("Hollow Knight Wiki (Community)/Main Background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.main-Main__contain{
+    width: 50%;
+}
+.main-Main__contain img{
+    width: 400px;
+
+}
+.main-Main__description {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.main-Main__img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.main-Personajes{
+    height:600px;
+    padding: 10px;
+}
+.main-Personajes__contain{
+    height:25%;
+}
+
+.main-Logros{
+    height:600px;
+    padding: 10px;
+}
+.main-Logros__contain{
+    height:25%;
+}
+.main-Logros__img{
+    position: relative;
+    z-index: -1;
+}
+
+.central{
+    display:flex;
+}
+
+.main-Personajes__Texto{
+    padding-left: 20px;
+}
+
+.main-Logros__Texto{
+    padding-left: 20px;
+}
+.tiempo{
+    background-image: url("Hollow Knight Wiki (Community)//Sidebar Image.png");
+    width:379px;
+}
+
+.tiempo__titulo{
+    padding:20px;
+}
+
+.tiempo__img-inicial{
+    display:inline-flex;
+    flex-wrap:nowrap;
+}
+.tiempo__img{
+    scale:70%;
+}
+
+.tiempo__contain{
+    display:flex;
+    align-items: center;
+}
+
